@@ -85,7 +85,7 @@ export function TaskTable({ tasks }: TaskTableProps) {
             </div>
             <Link
               href="/create"
-              className={`flex items-center gap-2 px-4 py-2 bg-purple-500 text-white rounded-lg hover:bg-purple-600 transition-colors ${
+              className={`flex items-center gap-2 px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition-colors ${
                 loading ? 'opacity-50 cursor-not-allowed' : ''
               }`}
             >

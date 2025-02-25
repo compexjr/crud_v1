@@ -59,7 +59,7 @@ export function TaskTable({ tasks }: TaskTableProps) {
   return (
     <div className="w-full h-full bg-white rounded-lg shadow-md">
       {error && (
-        <div className="p-4 mb-4 bg-red-50 border border-red-200 text-red-600 rounded-md">
+        <div className="p-4 mb-4 bg-red-50 border border-red-200 text-purple-600 rounded-md">
           {error}
         </div>
       )}

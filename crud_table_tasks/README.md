@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Gerenciador de Tarefas
 
-## Getting Started
+## 📋 Sobre o Projeto
+Sistema de gerenciamento de tarefas desenvolvido com **Next.js**, **TypeScript** e **TailwindCSS**. Permite criar, listar, atualizar e deletar tarefas (**CRUD**).
 
-First, run the development server:
+## 🚀 Funcionalidades
+- ✅ Criar novas tarefas
+- 📝 Editar tarefas existentes
+- 🗑️ Deletar tarefas
+- 🔍 Buscar tarefas
+- 📊 Visualizar status das tarefas
+- 📱 Interface responsiva
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 🛠️ Tecnologias Utilizadas
+- [Next.js 14](https://nextjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [TailwindCSS](https://tailwindcss.com/)
+- [Heroicons](https://heroicons.com/)
+
+## 📂 Instalação e Uso
+
+### 🔹 Clonar o repositório
+```sh
+git clone https://github.com/davasm/crud_tasks.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 🔹 Entrar na pasta do projeto
+```sh
+cd crud_tasks
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 🔹 Instalar dependências
+```sh
+npm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 🔹 Iniciar o servidor de desenvolvimento
+```sh
+npm run dev
+```
 
-## Learn More
+Após iniciar o servidor, acesse **[http://localhost:3000/home](http://localhost:3000/home)** no navegador.
 
-To learn more about Next.js, take a look at the following resources:
+## 📝 Como Usar
+1. Clique em **"Nova Tarefa"** para criar uma tarefa.
+2. Preencha os campos necessários:
+   - **Título**
+   - **Descrição**
+   - **Status**
+3. Use a **barra de busca** para filtrar tarefas.
+4. Utilize os **botões de ação** para editar ou excluir tarefas.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+⌨️ com ❤️ por [**Davi Soares de Macedo**](https://github.com/davasm)
